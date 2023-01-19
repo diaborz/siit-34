@@ -36,3 +36,12 @@ function handleClick() {
     count--;
     display.innerText = count;
 }
+
+buttons[1].addEventListener('click', handleClickIncrement);
+
+let plus = 0;
+
+function handleClickIncrement() {
+    plus++;
+    display.innerText = plus;
+}
